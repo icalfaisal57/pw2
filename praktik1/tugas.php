@@ -45,7 +45,7 @@ $ar_nilai= [$mahasiswa1,$mahasiswa2,$mahasiswa3];
             </tr>
             <?php foreach($ar_nilai as $nilai){ ?>
             <tr>
-                <td><?php echo $nilai['id'];?></td>
+                <td><?= $nilai['id'];?></td>
                 <td><?php echo $nilai['nim'];?></td>
                 <td><?php echo $nilai['uts'];?></td>
                 <td><?php echo $nilai['uas'];?></td>
