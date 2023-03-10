@@ -47,7 +47,7 @@
   <div class="form-group row">
     <label for="jumlah" class="col-4 col-form-label">Jumlah</label> 
     <div class="col-8">
-      <input id="jumlah" name="jumlah" placeholder="Masukan Jumlah Yang Diinginkan" type="text" class="form-control" required="required" aria-describedby="jumlahHelpBlock"> 
+      <input id="jumlah" name="jumlah" placeholder="Masukan Jumlah Yang Diinginkan" type="number" class="form-control" required="required" aria-describedby="jumlahHelpBlock"> 
       <span id="jumlahHelpBlock" class="form-text text-muted">Masukan Angka (1,2,3,..)</span>
     </div>
   </div> 
@@ -82,7 +82,7 @@
 						</th>	
 					</tr>
 			</table>
-		</div>
+		</div> sa
 	</div>
     <div class="row">
 		<div class="col-md-12">
